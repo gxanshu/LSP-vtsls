@@ -13,17 +13,17 @@ import sublime
 
 
 def plugin_loaded() -> None:
-    LspTypescriptPlugin.setup()
+    LspVtslsPlugin.setup()
 
 
 def plugin_unloaded() -> None:
-    LspTypescriptPlugin.cleanup()
+    LspVtslsPlugin.cleanup()
 
 
-class LspTypescriptPlugin(NpmClientHandler):
+class LspVtslsPlugin(NpmClientHandler):
     package_name = __package__
-    server_directory = 'typescript-language-server'
-    server_binary_path = os.path.join(server_directory, 'node_modules', 'typescript-language-server', 'lib', 'cli.mjs')
+    server_directory = 'vtsls'
+    server_binary_path = os.path.join(server_directory, 'node_modules', '@vtsls', 'language-server', 'bin', "vtsls.js")
 
     @classmethod
     def minimum_node_version(cls) -> Tuple[int, int, int]:

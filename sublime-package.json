@@ -3,10 +3,10 @@
     "settings": [
       {
         "file_patterns": [
-          "/LSP-typescript.sublime-settings"
+          "/LSP-vtsls.sublime-settings"
         ],
         "schema": {
-          "$id": "sublime://settings/LSP-typescript",
+          "$id": "sublime://settings/LSP-vtsls",
           "definitions": {
             "PluginConfig": {
               "properties": {
@@ -717,7 +717,7 @@
               "$ref": "sublime://settings/LSP-plugin-base"
             },
             {
-              "$ref": "sublime://settings/LSP-typescript#/definitions/PluginConfig"
+              "$ref": "sublime://settings/LSP-vtsls#/definitions/PluginConfig"
             }
           ]
         }
@@ -732,8 +732,8 @@
               "properties": {
                 "LSP": {
                   "properties": {
-                    "LSP-typescript": {
-                      "$ref": "sublime://settings/LSP-typescript#/definitions/PluginConfig"
+                    "LSP-vtsls": {
+                      "$ref": "sublime://settings/LSP-vtsls#/definitions/PluginConfig"
                     }
                   }
                 }

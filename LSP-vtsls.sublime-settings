@@ -1,0 +1,17 @@
+{
+	"initializationOptions": {},
+	"settings": {
+		"statusText": "$version, $source",
+		// https://github.com/yioneko/vtsls/blob/main/packages/service/configuration.schema.json
+	},
+	"command": [
+		"${node_bin}",
+		"${server_path}",
+		"--stdio"
+	],
+	"selector": "source.js, source.jsx, source.ts, source.tsx",
+	"schemes": [
+		"file", // regular files
+		"buffer", // in-memory buffers
+	],
+}

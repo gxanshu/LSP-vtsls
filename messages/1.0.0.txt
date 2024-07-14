@@ -1,0 +1,29 @@
+# Getting started
+
+This package is still in development but its ready to use for day to day tasks.
+you can track the common issues at https://github.com/gxanshu/LSP-vtsls/issues/1
+
+# how to use
+first open command pallet and type `LSP vtsls settings`.
+this will open settings page now copy the initial settings from left panel to right panel. this will start LSP server
+
+It works exactly same as VSCode's TypeScript LSP, so all settings are same
+you can visit https://github.com/yioneko/vtsls/blob/main/packages/service/configuration.schema.json
+and check all the settings possible for VTSLS server.
+
+you can put these settings into setting json. for more info visit the Github Repo
+https://github.com/gxanshu/LSP-vtsls
+
+```json
+{
+	"setting": {
+		// put them here
+	}
+}
+```
+
+
+Thank you to install this package.
+Create issue: https://github.com/gxanshu/LSP-vtsls/issues
+Leave a star: https://github.com/gxanshu/LSP-vtsls
+Support: https://x.com/gxanshu

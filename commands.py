@@ -7,11 +7,11 @@ from LSP.plugin.locationpicker import LocationPicker
 SESSION_NAME = __package__
 
 
-class LspTypescriptExecuteCommand(LspExecuteCommand):
+class LspVtslsExecuteCommand(LspExecuteCommand):
     session_name = SESSION_NAME
 
 
-class LspTypescriptGotoSourceDefinitionCommand(LspTypescriptExecuteCommand):
+class LspVtslsGotoSourceDefinitionCommand(LspVtslsExecuteCommand):
     def handle_success_async(self, result: Union[List[Location], List[LocationLink]], command_name: str) -> None:
         window = self.view.window()
         if not result:

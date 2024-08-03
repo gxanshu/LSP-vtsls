@@ -6,10 +6,8 @@ This is an LSP wrapper around TypeScript extension bundled with VSCode. All feat
 
 ## Installation
 
- * Install [`LSP`](https://packagecontrol.io/packages/LSP) and `LSP-typescript` from Package Control.
+ * Install [`LSP`](https://packagecontrol.io/packages/LSP) and `LSP-vtsls` from Package Control.
  * For ST4: The TypeScript and React (TSX) syntaxes are built-in so no need to install anything else.
- * For ST3: If you are working with TypeScript install [TypeScript Syntax](https://packagecontrol.io/packages/TypeScript%20Syntax). If you are working with React install [JSCustom](https://packagecontrol.io/packages/JSCustom).
- * Restart Sublime.
 
 ## Configuration
 

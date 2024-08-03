@@ -9,7 +9,7 @@
     },
     {
         "caption": "LSP-vtsls: Organize Imports",
-        "command": "lsp_typescript_execute",
+        "command": "lsp_vtsls_execute",
         "args": {
             "command_name": "typescript.organizeImports",
             "command_args": ["${file}"]
@@ -17,28 +17,28 @@
     },
     {
         "caption": "LSP-vtsls: Open TS server Log",
-        "command": "lsp_typescript_execute",
+        "command": "lsp_vtsls_execute",
         "args": {
             "command_name": "typescript.openTsServerLog"
         }
     },
     {
         "caption": "LSP-vtsls: Reload Projects",
-        "command": "lsp_typescript_execute",
+        "command": "lsp_vtsls_execute",
         "args": {
             "command_name": "typescript.reloadProjects"
         }
     },
     {
         "caption": "LSP-vtsls: Select TypeScript Version",
-        "command": "lsp_typescript_execute",
+        "command": "lsp_vtsls_execute",
         "args": {
             "command_name": "typescript.selectTypeScriptVersion"
         }
     },
     {
         "caption": "LSP-vtsls: Sort Imports",
-        "command": "lsp_typescript_execute",
+        "command": "lsp_vtsls_execute",
         "args": {
             "command_name": "typescript.sortImports",
             "command_args": ["${file}"]
@@ -46,7 +46,7 @@
     },
     {
         "caption": "LSP-vtsls: Remove Unused Imports",
-        "command": "lsp_typescript_execute",
+        "command": "lsp_vtsls_execute",
         "args": {
             "command_name": "typescript.removeUnusedImports",
             "command_args": ["${file}"]
